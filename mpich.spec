@@ -12,7 +12,7 @@ Patch0:         mpich-modules.patch
 Patch3:         0003-soften-version-check.patch
 
 BuildRequires:  gcc-gfortran
-BuildRequires:  hwloc-devel >= 1.8
+#BuildRequires:  hwloc-devel >= 1.8
 %ifarch %{valgrind_arches}
 BuildRequires:  valgrind-devel
 %endif
