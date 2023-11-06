@@ -103,7 +103,7 @@ mpich support for Python 3.
 %global m_option ""
 %endif
 
-%global selected_channels ch3:nemesis
+%global selected_channels ch3:sock
 
 %ifarch %{ix86} x86_64 s390 %{arm} aarch64
 %global XFLAGS -fPIC
